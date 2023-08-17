@@ -23,9 +23,61 @@
 		},
 		{
 			"path": "ql"
+		},
+		{
+			"name": "Quick Queries",
+			"path": "../../../.config/Code/User/workspaceStorage/7d3265efcaf00ac07b1cdc6e90e6122d/GitHub.vscode-codeql/quick-queries"
+		},
+		{
+			"name": "[protocolbuffers/protobuf source archive]",
+			"uri": "codeql-zip-archive://0-121/home/joey/.config/Code/User/workspaceStorage/7d3265efcaf00ac07b1cdc6e90e6122d/GitHub.vscode-codeql/cpp/codeql_db/src.zip"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"name": "[codeql-RTD012 source archive]",
+			"uri": "codeql-zip-archive://0-52/home/joey/Desktop/test/RTD012/codeql-RTD012/src.zip"
+		},
+		{
+			"name": "[codeql-acctrl source archive]",
+			"uri": "codeql-zip-archive://0-55/home/joey/Desktop/test/synthetic/codeql-acctrl/src.zip"
+		},
+		{
+			"name": "[codeql-fsm source archive]",
+			"uri": "codeql-zip-archive://0-52/home/joey/Desktop/test/synthetic/codeql-fsm/src.zip"
+		},
+		{
+			"name": "[codeql-hier source archive]",
+			"uri": "codeql-zip-archive://0-53/home/joey/Desktop/test/verilator/codeql-hier/src.zip"
+		},
+		{
+			"path": "../../../opentitan-verilator"
+		},
+		{
+			"name": "[codeql-test source archive]",
+			"uri": "codeql-zip-archive://0-64/home/joey/opentitan-verilator/sim-verilator/codeql-test/src.zip"
+		},
+		{
+			"name": "[codeql-synth-fsm source archive]",
+			"uri": "codeql-zip-archive://0-58/home/joey/Desktop/test/synthetic/codeql-synth-fsm/src.zip"
+		},
+		{
+			"name": "[codeql-synth-sec_reg source archive]",
+			"uri": "codeql-zip-archive://0-62/home/joey/Desktop/test/synthetic/codeql-synth-sec_reg/src.zip"
+		},
+		{
+			"name": "[codeql-dataflow2 source archive]",
+			"uri": "codeql-zip-archive://0-58/home/joey/Desktop/test/dataflow2/codeql-dataflow2/src.zip"
+		},
+		{
+			"name": "[codeql-RTG011 source archive]",
+			"uri": "codeql-zip-archive://0-52/home/joey/Desktop/test/RTG011/codeql-RTG011/src.zip"
 		}
 	],
 	"settings": {
-		"omnisharp.autoStart": false
+		"omnisharp.autoStart": false,
+		"cquery.cacheDirectory": "${workspaceFolder}/.vscode/cquery_cached_index/",
+		"codeQL.runningQueries.autoSave": true
 	}
 }
